@@ -12,5 +12,4 @@ DB = ActiveRecord::Base.connection
 
 if ENV["PLAYLISTER_ENV"] == "test"
   ActiveRecord::Migration.verbose = false
-  ActiveRecord::Base.logger = nil
 end
